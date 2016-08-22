@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FirstProject.Properties
+namespace Part1_Panels_Controls_Events.Properties
 {
 
 

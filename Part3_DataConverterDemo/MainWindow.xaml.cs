@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace FirstProject
+namespace Part3_DataConverterDemo
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,6 +23,7 @@ namespace FirstProject
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new Employee("John", "President", new DateTime(2005, 01, 5));
         }
     }
 }
