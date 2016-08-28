@@ -5,7 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:XAML_Jumpstart_1_Controls_RoutedEvents"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="525" Icon="Assets/PS_logo.png"
+        ResizeMode="CanResizeWithGrip"
+        ShowInTaskbar="True"
+        WindowStartupLocation="CenterScreen">
     <!-- ControlTemplate
     <Window.Resources>
         <Style x:Key="FocusVisual">
@@ -63,7 +66,7 @@
         <Button Width="200"
                 Height="100"
                 Click="Button_Click">
-            <Image Source="C:\Users\claudiu.orosanu\Desktop\Learn\LearnWPF\XAML_Jumpstart\XAML_Jumpstart_1_Controls_RoutedEvents\Assets\PS_logo.png"
+            <Image Source="Assets/PS_logo.png"
                    Height="50"
                    Width="100"
                    MouseDown="Image_MouseDown"/>
