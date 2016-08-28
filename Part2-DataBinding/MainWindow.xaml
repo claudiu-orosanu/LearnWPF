@@ -6,7 +6,16 @@
         xmlns:local="clr-namespace:Part2_DataBinding"
         mc:Ignorable="d"
         Title="Data Binding" Height="350" Width="525">
+    
+    <!--we can set the datacontext in the constructor in code behind or we can create an object 
+        here and give it a key to be referentiated in xaml code. The object is created as a static resource
+        Of course the change button won't work now but you can make the conversion in the method that handles the event
+    -->
+    <!--<Window.Resources>
+        <local:Employee x:Key="myEmployee" Name="Gica" Title="Mecanic"/>
+    </Window.Resources>-->
     <Grid>
+        <!--DataContext="{StaticResource myEmployee}" attach this property to grid to work with the above method-->
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
