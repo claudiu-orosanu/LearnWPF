@@ -58,6 +58,24 @@
     <Compile Include="Windows\_1TextBoxControl.xaml.cs">
       <DependentUpon>_1TextBoxControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\_2CheckBoxControl.xaml.cs">
+      <DependentUpon>_2CheckBoxControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\_3RadioButtonControl.xaml.cs">
+      <DependentUpon>_3RadioButtonControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\_4PasswordBox.xaml.cs">
+      <DependentUpon>_4PasswordBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\_5Tooltips.xaml.cs">
+      <DependentUpon>_5Tooltips.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\_6TextRendering.xaml.cs">
+      <DependentUpon>_6TextRendering.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\_7Panels.xaml.cs">
+      <DependentUpon>_7Panels.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -71,6 +89,30 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Windows\_1TextBoxControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\_2CheckBoxControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\_3RadioButtonControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\_4PasswordBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\_5Tooltips.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\_6TextRendering.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\_7Panels.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
